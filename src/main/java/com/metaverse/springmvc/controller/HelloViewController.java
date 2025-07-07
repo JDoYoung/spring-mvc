@@ -10,4 +10,9 @@ public class HelloViewController {
     public String hello(){
         return "hello.html";
     }
+
+    @GetMapping("/html/redirect")
+    public String htmlRedirect(){
+        return "redirect:/hello.html";
+    }
 }
