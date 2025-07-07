@@ -33,6 +33,4 @@ public class HelloViewController {
         model.addAttribute("visits", visitCount);
         return "hello-dynamic";
     }
-
-
 }
